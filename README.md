@@ -8,7 +8,8 @@ Here is a summary of the outputs produced together with the runtime (using C# in
 
 | Day | Part 1 solution | Part 2 solution  | Runtime      |
 |-----|-----------------|------------------|--------------|
-| 1   |      |             |         |
+| 1   |  70296          |        205381    | 8ms          |
+| 2   |           |           |        |
 
 
 PC information:
