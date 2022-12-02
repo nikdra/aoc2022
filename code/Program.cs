@@ -6,7 +6,7 @@ public class Program
     static void Main() 
     {   
         // instantiate solver code
-        Solver sol = new Day1("");
+        Solver sol = new Day2();
 
         // start the stopwatch
         var watch = new System.Diagnostics.Stopwatch();

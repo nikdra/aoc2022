@@ -7,7 +7,7 @@ public abstract class Solver
     /// Instantiate the Solver class
     /// This function should also read the input from the file and store it somehow
     /// </summary>
-    public Solver (string inputFile) {}
+    public Solver () {}
 
     /// <summary>
     /// Function that solves the first part of a puzzle and prints it to console

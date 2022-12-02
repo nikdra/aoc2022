@@ -8,10 +8,9 @@ public class Day1:Solver {
     /// <summary>
     /// Initialize the solver by supplying the path to the input
     /// </summary>
-    /// <param name="inputFile"> Path to input file </param>
-    public Day1 (string inputFile) : base(inputFile) 
+    public Day1 () : base() 
     {
-        this.inp = System.IO.File.ReadAllText("input/main/day01")
+        this.inp = System.IO.File.ReadAllText("../input/main/01")
             .Split("\r\n\r\n", StringSplitOptions.RemoveEmptyEntries)
             .Select(elf => elf.Split("\n", StringSplitOptions.RemoveEmptyEntries)
                 .Select(cal => Int32.Parse(cal)
