@@ -361,3 +361,5 @@ MigrationBackup/
 
 # Built Visual Studio Code Extensions
 *.vsix
+.vscode/launch.json
+.vscode/tasks.json
