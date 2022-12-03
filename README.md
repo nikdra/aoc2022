@@ -8,9 +8,9 @@ Here is a summary of the outputs produced together with the runtime (using C# in
 
 | Day | Part 1 solution | Part 2 solution  | Runtime      |
 |-----|-----------------|------------------|--------------|
-| 1   |  70296          |        205381    | 8ms          |
-| 2   |  15523          |   15702          | 7ms          |
-| 3   |                 |                  |              |
+| 1   | 70296           | 205381           | 8ms          |
+| 2   | 15523           | 15702            | 7ms          |
+| 3   | 7824            | 2798             | 10ms         |
 | 4   |                 |                  |              |
 | 5   |                 |                  |              |
 | 6   |                 |                  |              |
