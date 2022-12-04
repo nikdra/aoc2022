@@ -11,7 +11,7 @@ Here is a summary of the outputs produced together with the runtime (using C# in
 | 1   | 70296           | 205381           | 8ms          |
 | 2   | 15523           | 15702            | 7ms          |
 | 3   | 7824            | 2798             | 10ms         |
-| 4   |                 |                  |              |
+| 4   | 518             | 909              | 6ms          |
 | 5   |                 |                  |              |
 | 6   |                 |                  |              |
 | 7   |                 |                  |              |
