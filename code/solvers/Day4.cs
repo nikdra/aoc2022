@@ -49,9 +49,7 @@ public class Day4:Solver {
     {
         int result = this.inp 
             .Select(pair => 
-                   (pair.a1.min <= pair.a2.min && pair.a1.max >= pair.a2.max) // a1 contains a2
-                || (pair.a1.min >= pair.a2.min && pair.a1.max <= pair.a2.max) // a2 contains a1
-                || (pair.a1.min <= pair.a2.min && pair.a2.min <= pair.a1.max) // a1 overlaps a2 "left"
+                   (pair.a1.min <= pair.a2.min && pair.a2.min <= pair.a1.max) // a1 overlaps a2 "left"
                 || (pair.a2.min <= pair.a1.min && pair.a1.min <= pair.a2.max) ? 1 : 0) // a2 overlaps a1 "left"
             .Sum();
 
